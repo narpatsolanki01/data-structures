@@ -4,11 +4,11 @@ Given a binary tree, find its preorder Inorder Postorder traversal.
 
 **Example 1**:
     Input:
-          1      
-         /          
+           1      
+          /          
         4    
-       / \   
-      4   2
+       /   \   
+      4     2
 
 **Examle 2**:
     Input
