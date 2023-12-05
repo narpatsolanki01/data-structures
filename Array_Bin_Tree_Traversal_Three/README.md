@@ -12,11 +12,11 @@
 **Examle 2**:
     Input
     
-         6
-     /   \
-    3     2
-     \   / 
-      1 2        
+        6
+       /  \
+      3   2
+      \   / 
+       1 2        
  
  **Solution** 
 ### Preorder Traversal
