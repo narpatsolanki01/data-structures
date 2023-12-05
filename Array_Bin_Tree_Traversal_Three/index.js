@@ -1,5 +1,4 @@
 //User function Template for javascript
-
 /**
  * @param {Node} root
  * @returns {number[]}
