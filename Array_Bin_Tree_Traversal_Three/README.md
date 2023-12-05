@@ -1,6 +1,6 @@
 # Binary Tree Traversal Three - Array
 #### Problem
-     Given a binary tree, find its preorder Inorder Postorder traversal.  
+      Given a binary tree, find its preorder Inorder Postorder traversal.  
 **Example 1**:
     Input:
             1      
