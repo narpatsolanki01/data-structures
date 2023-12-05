@@ -3,22 +3,22 @@
 Given a binary tree, find its preorder Inorder Postorder traversal.  
 
 **Example 1**:
-    Input:
- 
-            1      
-          /          
-        4    
-      /    \   
-    4       2
+Input:
+
+        1      
+      /          
+    4    
+  /    \   
+4       2
 
 **Examle 2**:
-    Input
-    
-        6
-       /  \
-      3   2
-      \   / 
-       1 2        
+Input
+
+    6
+   /  \
+  3   2
+  \   / 
+   1 2        
  
  **Solution** 
 ### Preorder Traversal
