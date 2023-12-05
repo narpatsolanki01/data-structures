@@ -1,4 +1,4 @@
-# Binary Tree Traversal Three - Array
+# Binary Tree Traversal Three - Array Java Script
 #### Problem
 Given a binary tree, find its preorder Inorder Postorder traversal.  
 
