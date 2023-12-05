@@ -6,11 +6,13 @@ You are given an integer `n`, the number of teams in a tournament that has stran
 - If the current number of teams is even, each team gets paired with another team. A total of `n / 2` matches 
     are played, and `n / 2` teams advance to the next round.
 - If the current number of teams is odd, one team randomly advances in the tournament, and the rest gets 
-    paired. A total of `(n - 1) / 2` matches are played, and `(n - 1) / 2` + 1 teams advance to the next round. 
+    paired. A total of `(n - 1) / 2` matches are played, and `(n - 1) / 2 + 1` teams advance to the next round. 
 
 Return the number of matches played in the tournament until a winner is decided.
 
+
 **Example 1**
+
 Input: n = 7
 
 Output: 6
@@ -25,7 +27,9 @@ Explanation: Details of the tournament:
 
 Total number of matches = 3 + 2 + 1 = 6.
 
+
 **Example 2**
+
 Input: n = 14
 
 Output: 13
@@ -117,7 +121,7 @@ Total number of matches = 7 + 3 + 2 + 1 = 13.
 
 - If the number of teams is odd, one team gets a bye (doesn't play in the current round). The number of teams 
     in the next round is calculated, pushed to the `arr` array, and `n` is updated to the number of advancing teams plus the team that got a bye.
-    
+
 5. After the loop, another loop iterates over the `arr` array, summing up the number of teams in each round to 
     get the total number of matches.
 
