@@ -4,8 +4,6 @@ Given a string `s` consisting of words and spaces, return the length of the last
 A word is a maximal substring consisting of non-space characters only.
 
 ### Example 1:
-
-
 **Input:** s = "Hello World"
 
 **Output:** 5
@@ -14,8 +12,6 @@ A word is a maximal substring consisting of non-space characters only.
 
 
 ### Example 2:
-
-
 **Input:** s = "   fly me   to   the moon  "
 
 **Output:** 4
@@ -24,8 +20,6 @@ A word is a maximal substring consisting of non-space characters only.
 
 
 ### Example 3:
-
-
 **Input:** s = "luffy is still joyboy"
 
 **Output:** 6
