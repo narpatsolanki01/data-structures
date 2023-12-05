@@ -1,6 +1,6 @@
 # Count Of Matches in Tournament (Java Script)
 
-## Problem
+## Problem :-
 You are given an integer `n`, the number of teams in a tournament that has strange rules:
 
 - If the current number of teams is even, each team gets paired with another team. A total of `n / 2` matches 
@@ -11,7 +11,7 @@ You are given an integer `n`, the number of teams in a tournament that has stran
 Return the number of matches played in the tournament until a winner is decided.
 
 
-**Example 1**
+**Example : 1**
 
 Input: n = 7
 
@@ -28,7 +28,7 @@ Explanation: Details of the tournament:
 Total number of matches = 3 + 2 + 1 = 6.
 
 
-**Example 2**
+**Example : 2**
 
 Input: n = 14
 
