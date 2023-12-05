@@ -127,12 +127,11 @@ class Solution {
     }
 ```
 ### Approach
-    The provided JavaScript code defines a class called `Solution` with three methods 
-    for traversing a binary tree:`preorder`, `inOrder`, and `postOrder`. 
-    Each traversal method takes the root of the binary tree as an argument and returns
-    an array containing the elements of the tree in the specified order.
-
-    Let's break down each traversal method:
+The provided JavaScript code defines a class called `Solution` with three methods 
+for traversing a binary tree:`preorder`, `inOrder`, and `postOrder`. 
+Each traversal method takes the root of the binary tree as an argument and returns
+an array containing the elements of the tree in the specified order.
+Let's break down each traversal method:
     
 1. **Preorder Traversal**:
        
