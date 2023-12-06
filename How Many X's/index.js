@@ -1,6 +1,6 @@
 class Solution {
     //Function to count numbers from 1 to N that have 4 as a digit.
-  function  countX(L,R,X)
+   countX(L,R,X)
     {
         let arr=[];
         let count=0;
