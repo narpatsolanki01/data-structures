@@ -16,3 +16,12 @@ class Solution {
         return count;
     }
 }
+
+// Create an instance of the Solution class.
+const solutionInstance = new Solution();
+
+// Call the countX method with the desired values for L, R, and X.
+const result = solutionInstance.countX(10, 50, 4);
+
+// Print the result.
+console.log(result);
