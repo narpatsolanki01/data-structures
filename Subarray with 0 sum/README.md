@@ -11,9 +11,7 @@ n = 5
 
 arr = {4,2,-3,1,6}
 
-Output:
-
-Yes
+Output: Yes
 
 Explanation: 
 
@@ -66,10 +64,10 @@ class Solution {
 
 1. This line calculates the length of the array`arr`and stores it in the variable `n`.
 
-2. The outer loop (`i`) iterates over each element of the array `arr`. For each starting index `i`, a sum variable
- (`sum`) is initialized to 0.
+2. The outer loop `i` iterates over each element of the array `arr`. For each starting index `i`, a sum variable
+ `sum` is initialized to 0.
 
-3. The inner loop (`j`) starts from the current outer loop index `i` and iterates until the end of the array. It
+3. The inner loop `j` starts from the current outer loop index `i` and iterates until the end of the array. It
  calculates the cumulative sum of elements from index `i` to `j`. 
 
 4. If at any point the cumulative sum becomes zero, it means there is a subarray whose sum is zero. In such a
