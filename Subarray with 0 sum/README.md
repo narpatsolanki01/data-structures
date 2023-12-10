@@ -6,21 +6,28 @@ Given an array of integers. Find if there is a **subarray** (of size at-least on
 
 **Example 1 :**
 Input:
+
 n = 5
+
 arr = {4,2,-3,1,6}
+
 Output: Yes
 
 Explanation: 
+
 2, -3, 1 is the subarray with sum 0.
 
 **Example 2:**
 Input :
+
 n = 5
+
 arr = {4,2,0,1,6}
 
 Output : YES
 
 Explanation: 
+
 0 is one of the element in the array so there exist a subarray with sum 0.
 
 ## Solution 
