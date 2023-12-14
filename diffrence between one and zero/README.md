@@ -101,6 +101,7 @@ Explanation:
     - The values in the grid are updated based on the formula: 
         `2 * sum of ones in the row + 2 * sum of ones in the column - n - m.`
 4. **Return the modified grid.**
+
     In summary, the function modifies the input grid by updating each element based on the sum of ones in its row and column, using the specified formula.
 
 
