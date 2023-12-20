@@ -26,23 +26,35 @@ Explanation: You cannot buy 2 chocolates without going in debt, so we return 3.
 
 ## Solution 
 ```javascript
-    /**
- * @param {number[]} prices
- * @param {number} money
- * @return {number}
+  /**
+ * @param {number[]} prices - Array of chocolate prices.
+ * @param {number} money - The budget to buy chocolates.
+ * @return {number} - The absolute difference between the closest pair's sum and the budget.
  */
 var buyChoco = function(prices, money) {
-        prices.sort((a,b)=>{return a-b});
-        for(let i=0; i<prices.length; i++){
-            for(let j=i+1; j<prices.length; j++){
-            let sum=prices[i]+prices[j];
-            if(sum<=money){
-                return Math.abs(sum-money);
-            }   
+    // Step 1: Sort the array of prices in ascending order.
+    prices.sort((a, b) => {
+        return a - b;
+    });
+
+    // Step 2: Iterate through all pairs of prices to find the closest sum within the budget.
+    for (let i = 0; i < prices.length; i++) {
+        for (let j = i + 1; j < prices.length; j++) {
+            // Calculate the sum of the current pair of prices.
+            let sum = prices[i] + prices[j];
+
+            // Check if the sum is within the budget.
+            if (sum <= money) {
+                // Return the absolute difference between the sum and the budget.
+                return Math.abs(sum - money);
+            }
         }
-        }
-        return money;
-    };
+    }
+
+    // Step 3: If no suitable pair is found within the budget, return the original amount of money.
+    return money;
+};
+
 ```
 
 ## Explanation 
